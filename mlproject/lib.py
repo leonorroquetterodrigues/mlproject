@@ -48,6 +48,10 @@ def clean_data(data):
     return data
 
 
+def try_me():
+    return print('Hello, my name is Leonor')
+
+
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
     import mlproject
@@ -55,3 +59,8 @@ if __name__ == '__main__':
     df = pd.read_csv('{}/data/data.csv.gz'.format(folder_source))
     clean_data = clean_data(df)
     print(' dataframe cleaned')
+
+
+
+
+
